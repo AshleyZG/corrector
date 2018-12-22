@@ -2,7 +2,7 @@
 
 ## 文件存储说明
 
-**gpu001:**
+**gpu001:**  
 **fin_news**- '/data/sharedata/cv/shannon_vision/lm/corpus/fin_news'  
 **wiki**- '/data/sharedata/cv/shannon_vision/lm/corpus/wiki'  
 
