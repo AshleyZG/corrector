@@ -3,12 +3,12 @@
 ## 文件存储说明
 
 **gpu001:**
-fin_news- '/data/sharedata/cv/shannon_vision/lm/corpus/fin_news'  
-wiki- '/data/sharedata/cv/shannon_vision/lm/corpus/wiki'  
+**fin_news**- '/data/sharedata/cv/shannon_vision/lm/corpus/fin_news'  
+**wiki**- '/data/sharedata/cv/shannon_vision/lm/corpus/wiki'  
 
 **gpu003**  
-fin_news- '/home/zhangge/data/corpus/fin_news'  
-wiki- '/home/zhangge/data/corpus/wiki'  
+**fin_news**- '/home/zhangge/data/corpus/fin_news'  
+**wiki**- '/home/zhangge/data/corpus/wiki'  
 
 ### 子目录
 train/valid/test- 最原始的语料，文件夹中是所有的txt文件。  
