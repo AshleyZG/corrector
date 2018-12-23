@@ -22,6 +22,6 @@ ocr预测方式：首先将所有文本都拼接成一个字符串，然后按 $
 
 
 ## 不同blurry level 的参数设定
-* clear- 将augmentation 设置为False即可  
+* clear- 运行inference.py 时将blurry level 设为 clear 即可  
 * blurry- [configuration](./config/blurry.py)   
 * blurry2- [configuration](./config/blurry2.py)  
