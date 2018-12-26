@@ -1,4 +1,4 @@
-# ocr-lm
+# corrector
 
 ## 文件存储说明
 
