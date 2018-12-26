@@ -23,7 +23,7 @@ ocr预测方式：首先将所有文本都拼接成一个字符串，然后按 $
 
 ## 不同blurry level 的参数设定
 * clear- 运行inference.py 时将blurry level 设为 clear 即可  
-* blurry- [configuration](./config/blurry.py)   
-* blurry2- [configuration](./config/blurry2.py) 在fin_news test 上的准确率为0.96左右  
-* blurry3- [configuration](./config/blurry3.py) 在fin_news test 上的准确率为0.94左右  
-* blurry4- [configuration](./config/blurry4.py) 在fin_news test 上的准确率为0.92左右  
+* blurry- [config](./config/blurry.py)   
+* blurry2- [config](./config/blurry2.py) 在fin_news test 上的准确率为0.96左右  
+* blurry3- [config](./config/blurry3.py) 在fin_news test 上的准确率为0.94左右  
+* blurry4- [config](./config/blurry4.py) 在fin_news test 上的准确率为0.92左右  
