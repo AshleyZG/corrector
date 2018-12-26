@@ -27,3 +27,12 @@ ocr预测方式：首先将所有文本都拼接成一个字符串，然后按 $
 * blurry2- [config](./config/blurry2.py) 在fin_news test 上的准确率为0.96左右  
 * blurry3- [config](./config/blurry3.py) 在fin_news test 上的准确率为0.94左右  
 * blurry4- [config](./config/blurry4.py) 在fin_news test 上的准确率为0.92左右  
+
+## 纠正效果
+### OCR+LM
+|Model |Error Rate |        | Dataset        |
+|------|-----------|--------|----------------|
+|OCR   |0.093000   |0.907000|fin_news_blurry4|
+|1\*3  |0.091557   |0.908443|                |
+|V\*3  |0.091028   |0.908972|                |
+|1\*W x \[tanh W\*V x V\*3\]  |0.093355   |0.906645|                |
