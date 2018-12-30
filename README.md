@@ -14,6 +14,7 @@
 train/valid/test- 最原始的语料，文件夹中是所有的txt文件。  
 train_ocr/valid_ocr/test_ocr- 对应的可用于ocr预测的合并后的文本，以及ocr识别后的文本  
 prediction- 不同文件夹代表不同的blurry level，里面包括ocr在各个数据集上的识别结果，其中test应该包含概率  
+sent- 按句子切分成行的文本
 
 ## ocr 预测数据的规格
 预测数据集：test  
